@@ -18,7 +18,7 @@ public class CheckUploadPageTest {
     @Test
     @DisplayName("Проверка что загрузилась нужная страница с заголовком 'Build like the best'")
     @Tag("Позитивный кейс")
-    public void TestCheckTitle(){
+    public void testCheckTitle(){
 
         SelenideLogger.addListener("allure", new AllureSelenide());
 

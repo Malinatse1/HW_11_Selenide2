@@ -17,7 +17,7 @@ public class DragAndDropTest {
     @Test
     @DisplayName("Проверка что прямоугольники поменялись местами")
     @Tag("Позитивный кейс")
-    public void TestCheckMoveRectangle() {
+    public void testCheckMoveRectangle() {
 
         SelenideLogger.addListener("allure", new AllureSelenide());
 
